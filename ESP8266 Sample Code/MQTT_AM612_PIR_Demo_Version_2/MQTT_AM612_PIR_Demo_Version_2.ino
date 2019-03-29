@@ -28,7 +28,7 @@
         /LED=Off - LED off
 
     The sensor will accept the command if send with either an "all sensor" or device specific MAC preface.
-         ALL/LED=Off - will be accepted by all sensors subscribed to the above topic
+        *ALL/LED=Off - will be accepted by all sensors subscribed to the above topic
         82F3EBB377D6/LED=Off - will only be accepted by the device with that MAC address
 
     Although any MQTT broker could be used a great solution is to install the mosquitto broker on a raspberry pi,
