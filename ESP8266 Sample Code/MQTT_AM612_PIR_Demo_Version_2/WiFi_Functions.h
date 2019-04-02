@@ -10,7 +10,7 @@ String Status_Report()  {
 
   String Report = Event + ", " + Light + ", " + My_MAC + ", " + WiFi_SSID + ", " + rssi + "dB, " + My_IP + ", " + String(Heart_Value);
 
-  Event = "Heatbeat";
+  Event = "Heartbeat";
 
   return Report;
 
